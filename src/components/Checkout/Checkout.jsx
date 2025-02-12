@@ -86,7 +86,7 @@ export default function Checkout() {
 
             if (response.data.status === "success") {
                 toast.success("Order placed successfully!");
-                navigate("/payment"); // Navigate to the payment page on success
+                navigate("/visapay"); // Navigate to the payment page on success
             } else {
                 toast.error("Checkout failed. Please try again.");
             }

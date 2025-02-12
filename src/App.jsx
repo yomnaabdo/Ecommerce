@@ -14,7 +14,7 @@ import Categories from "./components/Categories/Categories";
 import ForgetPassword from "./components/ForgetPassword/ForgetPassword";
 import Checkout from "./components/Checkout/Checkout";
 import GetAllOrders from "./components/GetAllOrders/GetAllOrders";
-import Payment from "./components/Payment/Payment";
+import VisaPay from "./components/VisaPay//VisaPay";
 
 const router = createBrowserRouter([
   {
@@ -30,7 +30,7 @@ const router = createBrowserRouter([
       { path: "/brands", element: <Brands /> },
       { path: "/wishlist", element: <WishList /> },
       { path: "/categories", element: <Categories /> },
-      { path: "/payment", element: <Payment /> },
+      { path: "/visapay", element: <VisaPay /> },
       { path: "/checkout", element: <Checkout /> },
       { path: "/getallorders", element: <GetAllOrders /> },
       { path: "*", element: <Page404 /> },
