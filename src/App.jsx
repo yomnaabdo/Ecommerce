@@ -13,8 +13,8 @@ import Page404 from "./components/Page404/Page404";
 import Categories from "./components/Categories/Categories";
 import ForgetPassword from "./components/ForgetPassword/ForgetPassword";
 import Checkout from "./components/Checkout/Checkout";
-import Payment from "./components/Payment/Payment.jsx";
 import GetAllOrders from "./components/GetAllOrders/GetAllOrders";
+import Payment from "./components/Payment/Payment";
 
 const router = createBrowserRouter([
   {
